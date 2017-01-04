@@ -528,7 +528,7 @@ class CaribuScene(object):
                                                diameter=d_sphere, layers=layers,
                                                height=height,
                                                screen_size=screen_size,
-                                               dissc_resolution=disc_resolution)
+                                               disc_resolution=disc_resolution)
             elif not direct:  # pure radiosity
                 out = algos['radiosity'](triangles, materials, lights=lights,
                                          screen_size=screen_size)
